@@ -59,7 +59,13 @@ html{
 }
 
 @media screen and (max-width: 600px) {
+  .dcsnBox, .resBox {
+    width: 80%;
+  }
  .col{
-     width: 100:
+     width: 100%;
    }
+  h5 {
+     text-size: 10px;
+  }
 }
