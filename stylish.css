@@ -19,6 +19,10 @@ html{
   text-align: center;
 }
 
+h5{
+  opacity: .6
+}
+
 .container{
   display: block;
   padding-left: 10px;
@@ -58,7 +62,7 @@ html{
   width: 33%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .dcsnBox, .resBox {
     width: 80%;
   }
