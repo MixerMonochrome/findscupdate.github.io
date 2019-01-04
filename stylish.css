@@ -17,7 +17,6 @@ html{
 
 .banner, h2, p, h5{
   text-align: center;
-  color: maroon;
 }
 
 .container{
@@ -50,7 +49,7 @@ html{
   border-style: inset;
   border-radius: 3px;
   background-color: rgba(249, 248, 248,.8);
-  color: blue;
+  
   overflow: auto;
 }
 
