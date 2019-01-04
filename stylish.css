@@ -1,8 +1,8 @@
 body {
   background-color: rgba(250, 250, 244,.8);
   background-clip: content-box;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 9%;
+  padding-right: 9%;
 }
 
 button {
@@ -17,6 +17,7 @@ html{
 
 .banner, h2, p, h5{
   text-align: center;
+  opacity: .9;
 }
 
 .container{
