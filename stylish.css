@@ -34,7 +34,7 @@ h5{
   margin-right: auto;
 }
 
-.dcsnBox, .resBox{
+.dcsnBox, .resBox, .image{
   width:70%
 }
 
@@ -63,10 +63,17 @@ h5{
 }
 
 @media screen and (max-width: 600px) {
+  body{
+   padding-left: 3%;
+   padding-right: 3%;
+  }
   .dcsnBox, .resBox {
-    width: 80%;
+    width: 90%;
   }
  .col{
      width: 100%;
    }
+ .image{
+   width: 80%
+  }
 }
