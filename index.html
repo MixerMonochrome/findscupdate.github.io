@@ -7,10 +7,10 @@
 
   <body>
     <h1 class = "banner"> Streetcrows: Which Update Am I Looking For?</h1>
-    <img src="connecting.png" alt="White text over blue background reading: Connect Visual Link. Connecting..." style="width:500px; height:60px;" class="cent">
+    <img src="connecting.png" alt="White text over blue background reading: Connect Visual Link. Connecting..." style="width:50%" class="cent">
 
     <h2>A tool for your topic-finding needs!</h2>
-    <h5>**Current up to Update 0068**</h5>
+    <h5>**Current up to Update 0069**</h5>
     
 
     <p><strong>Instructions:</strong> Check off the topics/characters of the updates you're looking for, then click submit.
@@ -378,16 +378,16 @@
     <br> <!--that good good bufferspace-->
 
 <!-- actual function stuff heck yeah!!!!! -->
-<!-- ------------------------------------ -->
+<!-- ==================================== -->
     <script>
       var Orion = [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 27, 28, 35, 36, 37, 38, 39,
-                   40, 41, 42, 43, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68];
+                   40, 41, 42, 43, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69];
       var Mallory = [7, 8, 9, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 43, 44, 45, 46, 47,
                      48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 63];
       var Narrator = [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 25, 26, 27, 28,
                       29, 34, 35, 36, 37, 38, 39, 41, 42, 43, 48, 51, 52, 55, 56, 57, 58, 59, 60, 61, 63, 64,
-                      65, 66, 67, 68];
-      var NarOnScreen = [7, 25, 41, 42, 48, 51, 58, 60, 61, 65, 66, 67];
+                      65, 66, 67, 68, 69];
+      var NarOnScreen = [7, 25, 41, 42, 48, 51, 58, 60, 61, 65, 66, 67, 69];
       var Quinn = [6, 7, 8, 9, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 43, 44, 45, 46, 47,
                    48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 63];
       var Crow = [12, 13, 16, 17, 18, 19, 27, 28, 29, 31, 32, 33, 34, 44, 50, 60, 61, 62];
@@ -396,21 +396,21 @@
       var Lioness = [1, 2, 3, 5, 6, 7, 9, 10, 11, 12, 13, 16, 17, 18, 19, 35, 36, 38, 39, 40, 41, 42, 43];
       var Bear = [1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 39, 40, 41, 42];
       var Sparrow = [19, 39, 40, 41, 42, 43];
-      var Opossum = [11, 17, 18, 19, 25, 26, 27, 50];
+      var Opossum = [11, 17, 18, 19, 25, 26, 27, 50, 69];
       var Bat = [19, 25, 26, 27, 50];
       var Duck = [19, 25, 26, 27, 50];
-      var Mockingbird = [25, 26, 27, 28, 35, 50];
+      var Mockingbird = [25, 26, 27, 28, 35, 50, 69];
       var Orca = [14, 15, 16, 17, 18, 19, 37];
       var Bluejay = [9, 10, 11, 12, 13, 19, 20, 21, 30, 31, 32, 34, 46, 47, 51, 55, 57, 58, 60, 63];
       var Raccoon = [34, 51, 63];
-      var Collie = [11, 19, 20, 29, 30, 31, 41, 48, 51, 61];
+      var Collie = [11, 19, 20, 29, 30, 31, 41, 48, 51, 61, 69];
       var Badger = [51, 63];
       var Cuttlefish = [51];
       var Hyena = [14, 15, 16, 35, 36, 37, 38, 39, 40, 41, 42, 43, 58, 59, 60, 61, 62];
-      var Bunny = [5, 14, 16, 17, 18, 19, 35];
+      var Bunny = [5, 14, 16, 17, 18, 19, 35, 69];
       var Dodger = [22, 23, 24, 46, 47, 51];
-      var Rigel = [11, 12, 35, 39, 40, 60, 61, 62, 66, 67];
-      var Betelgeuse = [11, 14, 35, 38, 41, 42, 64, 65, 66, 67, 68];
+      var Rigel = [11, 12, 35, 39, 40, 60, 61, 62, 66, 67, 69];
+      var Betelgeuse = [11, 14, 35, 38, 41, 42, 64, 65, 66, 67, 68, 69];
       var Andromeda = [64, 65, 66, 67];
       var Erinyes = [42, 55, 56];
       var Karis = [45, 46, 47, 50, 55, 57, 63];
@@ -449,7 +449,7 @@
       var Curfew = [24, 63];
       var VisDist = [20, 21, 22, 29, 31, 47, 49, 51, 56, 57, 61, 62, 63, 65, 66, 67];
       <!-- var SysMsg = []; -->
-      var MiscInfo = [7, 24, 29, 30, 33, 47, 49, 62, 63];
+      var MiscInfo = [7, 24, 29, 30, 33, 47, 49, 62, 63, 69];
 
       var topName = ["Orion","Mallory","Narrator","Narrator(On-Screen)","Quinn","Crow","Shark",
                      "Lykoi","Lioness","Bear","Sparrow","Opossum","Bat","Duck","Mockingbird",
