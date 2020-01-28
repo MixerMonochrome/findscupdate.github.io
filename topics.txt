@@ -40,7 +40,7 @@ Lacerta 31 -1 0
 Noctua 31 -1 0
 Cancer 31 -1 0
 Lilium 31 48 51 -1 0
-Quinn's_Wife 26 46 47 -1 0
+Quinn's_Wife 26 46 47 57 -1 0
 Hoatzin 21 22 47 -1 0
 Vulture 21 22 47 -1 0
 Lynx 22 47 -1 0
